@@ -95,13 +95,13 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "=3.10.1",
-    "node-lyra2re2-hash": "squbs/node-lyra2re2-hash"
+    "node-lyra2re2-hash": "https://github.com/squbs/node-lyra2re2-hash/archive/master.tar.gz"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "mangacore-build": "neginegi0/mangacore-build",
+    "mangacore-build": "https://github.com/neginegi0/mangacore-build/archive/master.tar.gz",
     "sinon": "^1.13.0"
   },
   "license": "MIT"
