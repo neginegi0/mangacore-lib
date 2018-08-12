@@ -1,5 +1,5 @@
 
 
-var litecoreTasks = require('litecore-build');
+var mangacoreTasks = require('mangacore-build');
 
-litecoreTasks('lib');
+mangacoreTasks('lib');

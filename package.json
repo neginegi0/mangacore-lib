@@ -1,7 +1,7 @@
 {
-  "name": "litecore-lib",
+  "name": "mangacore-lib",
   "version": "0.13.21",
-  "description": "A pure and powerful JavaScript Litecoin library.",
+  "description": "A pure and powerful JavaScript Mangacoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -65,7 +65,7 @@
     }
   ],
   "keywords": [
-    "litecoin",
+    "mangacoin",
     "bitcoin",
     "transaction",
     "address",
@@ -83,7 +83,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore-lib.git"
+    "url": "https://github.com/mangacoinproject/mangacore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -95,13 +95,13 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "=3.10.1",
-    "scryptsy": "=2.0.0"
+    "node-lyra2re2-hash": "squbs/node-lyra2re2-hash"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "litecore-build": "litecoin-project/litecore-build",
+    "mangacore-build": "neginegi0/mangacore-build",
     "sinon": "^1.13.0"
   },
   "license": "MIT"

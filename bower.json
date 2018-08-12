@@ -1,18 +1,18 @@
 {
-  "name": "litecore-lib",
-  "main": "./litecore-lib.min.js",
+  "name": "mangacore-lib",
+  "main": "./mangacore-lib.min.js",
   "version": "0.13.19",
-  "homepage": "http://litecore.io",
+  "homepage": "http://mangacore.io",
   "authors": [
     "BitPay, Inc."
   ],
-  "description": "A pure, powerful core for your litecoin project.",
+  "description": "A pure, powerful core for your mangacoin project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "litecoin",
-    "litecore",
+    "mangacoin",
+    "mangacore",
     "btc",
     "satoshi"
   ],
