@@ -20,7 +20,7 @@ Each instance of Block has a BlockHeader _(which can be instantiated separately)
 
 ```javascript
 // will verify that the nonce demonstrates enough proof of work
-assert(block.header.validProofOfWork());
+//!!remove!! assert(block.header.validProofOfWork());
 
 // will verify that timestamp is not too far in the future
 assert(block.header.validTimestamp());

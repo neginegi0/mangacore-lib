@@ -63,7 +63,6 @@ mangacore.deps.bnjs = require('bn.js');
 mangacore.deps.bs58 = require('bs58');
 mangacore.deps.Buffer = Buffer;
 mangacore.deps.elliptic = require('elliptic');
-mangacore.deps.lyra2re2 = require('node-lyra2re2-hash').digest;
 mangacore.deps._ = require('lodash');
 
 // Internal usage, exposed for testing/advanced tweaking

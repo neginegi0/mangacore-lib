@@ -1059,6 +1059,7 @@ BlockHeader.prototype.validTimestamp = function validTimestamp() {
 /**
  * @returns {Boolean} - If the proof-of-work hash satisfies the target difficulty
  */
+/*
 BlockHeader.prototype.validProofOfWork = function validProofOfWork() {
   var pow = new BN(this.id, 'hex');
   var target = this.getTargetDifficulty();
@@ -1068,6 +1069,7 @@ BlockHeader.prototype.validProofOfWork = function validProofOfWork() {
   }
   return true;
 };
+*/
 
 /**
  * @returns {string} - A string formatted for the console
