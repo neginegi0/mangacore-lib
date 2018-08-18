@@ -1,6 +1,6 @@
 {
   "name": "mangacore-lib",
-  "version": "0.13.21",
+  "version": "0.15.0",
   "description": "A pure and powerful JavaScript Mangacoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -89,17 +89,17 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bn.js": "=2.0.4",
-    "bs58": "=2.0.0",
-    "buffer-compare": "=1.0.0",
-    "elliptic": "=3.0.3",
+    "bn.js": "=4.11.8",
+    "bs58": "=4.0.1",
+    "buffer-compare": "=1.1.1",
+    "elliptic": "=6.4.0",
     "inherits": "=2.0.1",
-    "lodash": "=3.10.1"
+    "lodash": "=4.17.4"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
-    "gulp": "^3.9.1",
+    "gulp": "^3.8.10",
     "mangacore-build": "https://github.com/neginegi0/mangacore-build/archive/master.tar.gz",
     "sinon": "^1.13.0"
   },

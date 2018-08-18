@@ -18,8 +18,8 @@ var invalidbase58 = require('./data/bitcoind/base58_keys_invalid.json');
 describe('Address', function() {
 
   var pubkeyhash = new Buffer('3c3fa3d4adcaf8f52d5b1843975e122548269937', 'hex');
-  var buf = Buffer.concat([new Buffer([48]), pubkeyhash]);
-  var str = 'LQiX3WFFnc6JDULSRRG3Dsjza3VmhJ5pCP';
+  var buf = Buffer.concat([new Buffer([0]), pubkeyhash]);
+  var str = '16VZnHwRhwrExfeHFHGjwrgEMq8VcYPs9r';
 
   it('can\'t build without data', function() {
     (function() {
@@ -248,6 +248,12 @@ describe('Address', function() {
 
     it('should make an address using a non-string network', function() {
       Address.fromString(str, Networks.livenet).toString().should.equal(str);
+    });
+
+    it('should throw with bad network param', function() {
+      (function(){
+        Address.fromString(str, 'somenet');
+      }).should.throw('Unknown network');
     });
 
     it('should error because of unrecognized data format', function() {
